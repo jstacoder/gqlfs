@@ -1,0 +1,9 @@
+*.pyc
+*~
+~*
+.idea/*
+node_modules/*
+.mypy_cache/*
+dist/*
+*.lock
+*.log

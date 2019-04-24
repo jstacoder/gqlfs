@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "gql-fs"
+version = "0.0.1"
+description = "filesystem api via graphql"
+authors = ["kyle roux <jstacoder@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^2.7"
+graphql-core = "^2.1"
+graphene = "^2.1"
+flask = "^1.0"
+sqlalchemy = "^1.3"
+graphene-sqlalchemy = "^2.1"
+flask-graphql = "^2.0"
+pathlib2 = "^2.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.4"
+mock = "^2.0"
+ipython = "=5.0.0"
+gql = "^0.1.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
